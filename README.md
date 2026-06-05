@@ -3,7 +3,8 @@ NormV2T stands for (Normal View to Tangent). It is a plugin for Blender that pro
 
 -----> [Download the Blender plugin from here!](https://github.com/Riccardo-Foschi/Blender-NormV2T/releases/download/v2.29/Norm-View2Tang_2-29.py)<-----
 
-To install the plugin in Blender, go to Edit -> Preferences -> Addons -> Instal from disk
+To install the plugin in Blender, go to Edit -> Preferences -> Addons -> Instal from disk.
+
 By installing the plugin (.py file) a new tab will appear in the sidebar (shortcut N)
 
 <img width="317" height="905" alt="image" src="https://github.com/user-attachments/assets/d5d346f3-2e18-4990-af03-d1c911c9d903" />
