@@ -19,8 +19,8 @@ Workflow:
 - click the "Correct Input Normals Based on Mesh" button to generate new normal maps that are corrected by reading the real target mesh normals per pixel (this is particularly useful when the normals are created via photometric stereo pipelines, which are notoriously more biased compared to photogrammetry)
 - by using "Save Debug Images and Use Corrected Maps as New Input" the corrected maps will be used for the next steps
 - set the final texture resolution and format
-- leave the "Blend Input to Object Normal" option unchecked if you corrected the input normals based on mesh
-- leave  the "Generate Composite Map", "Apply Baked Normal to Mesh", and "Update Original MAterial" options checked to bake and reapply the new normal to the actual mesh while preserving the other maps already applied to the mesh
+- leave the "Blend Input to Object Normal" option unchecked if you corrected the input normals based on the mesh
+- leave  the "Generate Composite Map", "Apply Baked Normal to Mesh", and "Update Original Material" options checked to bake and reapply the new normal to the actual mesh while preserving the other maps already applied to the mesh
 - the advanced parameters can be tweaked to reduce projection errors caused by face occlusion or reduce the angle threshold for the faces that will receive the projected normal
 - click "Start Batch Bake" to project all the normal maps onto the mesh and create a composite map in the mesh UV space
-- the Debugging panel allows to view the cameras with the corresponding normal to check alignment
+- the Debugging panel allows you to view the cameras with the corresponding normal to check alignment
